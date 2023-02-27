@@ -11,6 +11,7 @@ function App() {
   const [register, setRegister] = useState([]);
   const [indexVetor, setIndexVetor] = useState('');
 
+  // Function to register people
   const signingUp = () => {
     const peopleInformation = {
       registerName: name,
@@ -25,6 +26,7 @@ function App() {
     setCity('');
   };
 
+  //Fuction to select people
   const handleSelectUser = (index) => {
     setIndexVetor(index);
 
@@ -35,6 +37,7 @@ function App() {
     setBtnRegister(false);
   };
 
+  // Function to change person information
   const handleToAlter = () => {
     const peopleInformation = {
       registerName: name,
@@ -53,6 +56,7 @@ function App() {
     setBtnRegister(true);
   };
 
+  // Function to delete people
   const handleDeletePeople = () => {
     const registerCopy = [...register];
     registerCopy.splice(indexVetor, 1);
@@ -65,6 +69,7 @@ function App() {
     setBtnRegister(true);
   };
 
+  // Function to cancel action
   const handleCancelAction = () => {
     setName('');
     setAge('');
