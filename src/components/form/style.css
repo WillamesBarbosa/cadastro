@@ -10,8 +10,3 @@ form input{
 form input[type='button']{
   margin-right: 10px;
 }
-
-.search{
-  margin: 5% auto;
-  width: 50%;
-}

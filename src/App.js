@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import './App.css';
-import Form from './components/form';
-import Table from './components/table';
+import Form from './components/form/form';
+import Table from './components/table/table';
 
 function App() {
   const [btnRegister, setBtnRegister] = useState(true);

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import P from 'prop-types';
+import './style.css';
 
 function Table({ register, handleSelectUser }) {
   const [searchTerm, setSearchTerm] = useState('');

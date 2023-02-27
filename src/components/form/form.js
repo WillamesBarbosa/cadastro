@@ -1,4 +1,5 @@
 import P from 'prop-types';
+import './style.css';
 
 function Form({
   btnRegister,
