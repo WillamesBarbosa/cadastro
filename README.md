@@ -18,7 +18,7 @@
 
 ## Acesso ao projeto
 
-* Em breve...
+* [Clique Aqui](https://bucolic-snickerdoodle-baa37f.netlify.app/)
 
 ## Tecnologias utilizadas
 
